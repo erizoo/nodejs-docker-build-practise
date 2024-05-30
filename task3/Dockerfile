@@ -9,4 +9,4 @@ RUN npm i --omit=dev
 COPY . .
 
 EXPOSE 3032
-CMD [ "node", "main.js" ] 
+ENTRYPOINT [ "node", "main.js" ] 
